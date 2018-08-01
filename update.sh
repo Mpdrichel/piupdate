@@ -1,6 +1,5 @@
 #!/bin/bash
 
-#!/bin/bash
 cd /home/pi/pi-bus-server
 
 git reset --hard && git pull && npm i && npm run build
