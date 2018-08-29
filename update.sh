@@ -42,7 +42,7 @@ mkdir /home/pi/logs
 echo "fixing namesetup"
 
 rm /home/pi/namesetup.sh
-cp /home/pi/piupdate/namesetup.sh
+cp /home/pi/piupdate/namesetup.sh /home/pi
 chmod +x /home/pi/namesetup.sh
 
 echo "klaar voor nu, changegeneral is nog verouderd"
