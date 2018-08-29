@@ -39,4 +39,10 @@ echo "logmap aanmaken"
 
 mkdir /home/pi/logs
 
-echo "klaar voor nu, namesetup en changegeneral zijn nog verouderd"
+echo "fixing namesetup"
+
+rm /home/pi/namesetup.sh
+cp /home/pi/piupdate/namesetup.sh
+chmod +x /home/pi/namesetup.sh
+
+echo "klaar voor nu, changegeneral is nog verouderd"
